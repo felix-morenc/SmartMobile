@@ -1,0 +1,58 @@
+@import './variables';
+
+body{
+    all: unset;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#app {
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+    &.admin {
+        margin-top: 50px; //navbar
+    }
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    .back-button {
+        padding: 8px;
+        border-radius: 6px;
+        background: rgba($dark, 0.1);
+        margin: auto 18px auto 0;
+        display: flex;
+        svg {
+            width: 22px;
+            height: 22px;
+        }
+    }
+}
+
+.btn {
+    all: unset;
+    display: block;
+    padding: 10px 18px;
+    border-radius: 10px;
+    &.btn--dark {
+        background: $dark;
+        color: $white;
+    }
+    &.btn--white {
+        background: $white;
+        color: $dark;
+    }
+    &.btn--primary {
+        background: $primary;
+        color: $white;
+    }
+    &.btn--inline {
+        margin-top: 10px;
+        display: inline-block;
+    }
+}

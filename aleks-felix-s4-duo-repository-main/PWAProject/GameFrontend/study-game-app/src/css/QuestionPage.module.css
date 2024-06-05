@@ -1,0 +1,167 @@
+*{
+    margin: 0%;
+}
+
+.sound{
+    background-color: #A96500;
+    color: white;
+    border: none;
+    border-radius:25%;
+    width: 30px;
+    height: 35px;
+    font-size: large;
+    padding: 2%;
+}
+.background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.comp{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    
+}
+.sound:hover{
+    background-color: #bd7c1b;
+    color: rgb(207, 207, 207);
+}
+.top{
+    display: flex;
+    align-content:flex-end;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 75%;
+}
+.scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/ScrollForPWA.png");
+    background-repeat:no-repeat; 
+}
+
+.attacks{
+    background-color: #F2DBBB;
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.attacks p{
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(124, 36, 36);
+}
+
+.question{
+    font-size: 50px;
+    color: brown;
+}
+
+.attackButtons{
+    display: flex;
+    align-items: center;
+}
+.attackButtons button{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    background-color:#A96500 ;
+    color: white;
+    border-radius: 0.5rem;
+    font-size: large;
+}
+.attacks button:hover{
+    background-color: #bd7c1b;
+    color: rgb(207, 207, 207);
+}
+
+@media only screen and (max-width: 600px) {
+    .background{
+        width:60%;
+        height: 80vh;
+        margin-top: 5%;
+        margin-bottom: 20%;
+    }
+    .scroll{
+        margin-top: 5%;
+        width: 100%;
+        height: 80%;
+        background-size:contain;
+    }
+    .attacks{
+        width: 90%;
+        height: 60vh;
+    }
+    .question{
+        font-size: 24px;
+    }
+    .attackButtons button{
+        width: 5rem;
+        height: 4rem;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .background{
+        width: 50%;
+        height: 50%;
+    }
+    .scroll{
+        justify-content: space-evenly;
+        background-size: 100% 80%; 
+        height: 80vh;
+        width: 50%;
+    }
+    .attacks{
+        margin-top: 10%;
+        width: 100%;
+        height: 15vh;
+        border-radius: 1.5rem;
+    }
+    .attacks button{
+        width: 6.5rem;
+        height: 3.5rem;  
+    }
+    .top{
+        margin-left: 75%;
+    }
+}
+
+
+@keyframes flickerAnimation {
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }
+  .comp {
+     -webkit-animation: flickerAnimation 2s ease-in-out;
+     -moz-animation: flickerAnimation 2s ease-in-out;
+     -o-animation: flickerAnimation 2s ease-in-out;
+      animation: flickerAnimation 2s ease-in-out;
+  }

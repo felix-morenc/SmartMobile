@@ -1,0 +1,61 @@
+.comp{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.ko{
+    margin-top: 1rem;
+    width: 5rem;
+    height: 3.5rem;
+}
+.healtbars{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name{
+    margin: 0%;
+    margin-top: 0.5rem;
+    color: rgb(124, 36, 36);
+    font-size: 20px;
+}
+.enemy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.enemy .name{
+    margin-left: 1rem;
+}
+.timer{
+    font-size: 50px;
+    color: brown;
+}
+.bar{
+    width: 5.5rem;
+    height: 1.5rem;
+    background-color: rgb(148, 148, 148);
+    color: white;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px 1px darkgray;
+}
+.hero .bar{
+    margin-left: 1.5rem;
+}
+.enemy .bar{
+    margin-right: 1.5rem;
+}
+@media only screen and (max-width: 600px) {
+    .ko{
+        width: 2.5rem;
+        height: 2rem;
+    }
+}

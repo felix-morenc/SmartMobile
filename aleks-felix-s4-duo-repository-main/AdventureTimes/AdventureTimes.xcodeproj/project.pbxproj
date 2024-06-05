@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5504E73F27FD7FF400351136 /* AdventureTimesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5504E73E27FD7FF400351136 /* AdventureTimesApp.swift */; };
+		5504E74127FD7FF400351136 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5504E74027FD7FF400351136 /* ContentView.swift */; };
+		5504E74327FD7FF600351136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5504E74227FD7FF600351136 /* Assets.xcassets */; };
+		5504E74627FD7FF600351136 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5504E74527FD7FF600351136 /* Preview Assets.xcassets */; };
+		5504E75027FD7FF600351136 /* AdventureTimesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5504E74F27FD7FF600351136 /* AdventureTimesTests.swift */; };
+		5504E75A27FD7FF600351136 /* AdventureTimesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5504E75927FD7FF600351136 /* AdventureTimesUITests.swift */; };
+		5504E75C27FD7FF600351136 /* AdventureTimesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5504E75B27FD7FF600351136 /* AdventureTimesUITestsLaunchTests.swift */; };
+		5504E76927FD8B7D00351136 /* DifficultiesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5504E76827FD8B7D00351136 /* DifficultiesPage.swift */; };
+		5504E76B27FD925200351136 /* BeginnerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5504E76A27FD925200351136 /* BeginnerPage.swift */; };
+		5504E76D27FD926300351136 /* Semi-ProPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5504E76C27FD926300351136 /* Semi-ProPage.swift */; };
+		5504E76F27FD927B00351136 /* ChallengerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5504E76E27FD927B00351136 /* ChallengerPage.swift */; };
+		5504E77127FD9D9300351136 /* LocationCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5504E77027FD9D9300351136 /* LocationCalculator.swift */; };
+		5504E7AD27FF37B600351136 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5504E7AC27FF37B600351136 /* AudioPlayer.swift */; };
+		5504E7AE27FF37B600351136 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5504E7AC27FF37B600351136 /* AudioPlayer.swift */; };
+		5504E7AF27FF37B600351136 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5504E7AC27FF37B600351136 /* AudioPlayer.swift */; };
+		5504E7B627FF41B900351136 /* alert.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5504E7B527FF41B900351136 /* alert.wav */; };
+		5504E7B727FF41B900351136 /* alert.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5504E7B527FF41B900351136 /* alert.wav */; };
+		5504E7B827FF41B900351136 /* alert.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5504E7B527FF41B900351136 /* alert.wav */; };
+		62C48A6A27FD9C7C00A5AFC4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C48A6927FD9C7C00A5AFC4 /* LocationManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5504E74C27FD7FF600351136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5504E73327FD7FF400351136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5504E73A27FD7FF400351136;
+			remoteInfo = AdventureTimes;
+		};
+		5504E75627FD7FF600351136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5504E73327FD7FF400351136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5504E73A27FD7FF400351136;
+			remoteInfo = AdventureTimes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5504E73B27FD7FF400351136 /* AdventureTimes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventureTimes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5504E73E27FD7FF400351136 /* AdventureTimesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureTimesApp.swift; sourceTree = "<group>"; };
+		5504E74027FD7FF400351136 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5504E74227FD7FF600351136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5504E74527FD7FF600351136 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5504E74B27FD7FF600351136 /* AdventureTimesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventureTimesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5504E74F27FD7FF600351136 /* AdventureTimesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureTimesTests.swift; sourceTree = "<group>"; };
+		5504E75527FD7FF600351136 /* AdventureTimesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventureTimesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5504E75927FD7FF600351136 /* AdventureTimesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureTimesUITests.swift; sourceTree = "<group>"; };
+		5504E75B27FD7FF600351136 /* AdventureTimesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureTimesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5504E76827FD8B7D00351136 /* DifficultiesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultiesPage.swift; sourceTree = "<group>"; };
+		5504E76A27FD925200351136 /* BeginnerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginnerPage.swift; sourceTree = "<group>"; };
+		5504E76C27FD926300351136 /* Semi-ProPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Semi-ProPage.swift"; sourceTree = "<group>"; };
+		5504E76E27FD927B00351136 /* ChallengerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengerPage.swift; sourceTree = "<group>"; };
+		5504E77027FD9D9300351136 /* LocationCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCalculator.swift; sourceTree = "<group>"; };
+		5504E7AC27FF37B600351136 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		5504E7B427FF3E8800351136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5504E7B527FF41B900351136 /* alert.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert.wav; sourceTree = "<group>"; };
+		62C48A6927FD9C7C00A5AFC4 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5504E73827FD7FF400351136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5504E74827FD7FF600351136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5504E75227FD7FF600351136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5504E73227FD7FF400351136 = {
+			isa = PBXGroup;
+			children = (
+				5504E73D27FD7FF400351136 /* AdventureTimes */,
+				5504E74E27FD7FF600351136 /* AdventureTimesTests */,
+				5504E75827FD7FF600351136 /* AdventureTimesUITests */,
+				5504E73C27FD7FF400351136 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5504E73C27FD7FF400351136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5504E73B27FD7FF400351136 /* AdventureTimes.app */,
+				5504E74B27FD7FF600351136 /* AdventureTimesTests.xctest */,
+				5504E75527FD7FF600351136 /* AdventureTimesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5504E73D27FD7FF400351136 /* AdventureTimes */ = {
+			isa = PBXGroup;
+			children = (
+				5504E7B427FF3E8800351136 /* Info.plist */,
+				5504E73E27FD7FF400351136 /* AdventureTimesApp.swift */,
+				5504E74027FD7FF400351136 /* ContentView.swift */,
+				5504E74227FD7FF600351136 /* Assets.xcassets */,
+				5504E74427FD7FF600351136 /* Preview Content */,
+				5504E76827FD8B7D00351136 /* DifficultiesPage.swift */,
+				5504E7B527FF41B900351136 /* alert.wav */,
+				5504E76A27FD925200351136 /* BeginnerPage.swift */,
+				5504E76C27FD926300351136 /* Semi-ProPage.swift */,
+				5504E76E27FD927B00351136 /* ChallengerPage.swift */,
+				62C48A6927FD9C7C00A5AFC4 /* LocationManager.swift */,
+				5504E77027FD9D9300351136 /* LocationCalculator.swift */,
+				5504E7AC27FF37B600351136 /* AudioPlayer.swift */,
+			);
+			path = AdventureTimes;
+			sourceTree = "<group>";
+		};
+		5504E74427FD7FF600351136 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5504E74527FD7FF600351136 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5504E74E27FD7FF600351136 /* AdventureTimesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5504E74F27FD7FF600351136 /* AdventureTimesTests.swift */,
+			);
+			path = AdventureTimesTests;
+			sourceTree = "<group>";
+		};
+		5504E75827FD7FF600351136 /* AdventureTimesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5504E75927FD7FF600351136 /* AdventureTimesUITests.swift */,
+				5504E75B27FD7FF600351136 /* AdventureTimesUITestsLaunchTests.swift */,
+			);
+			path = AdventureTimesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5504E73A27FD7FF400351136 /* AdventureTimes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5504E75F27FD7FF600351136 /* Build configuration list for PBXNativeTarget "AdventureTimes" */;
+			buildPhases = (
+				5504E73727FD7FF400351136 /* Sources */,
+				5504E73827FD7FF400351136 /* Frameworks */,
+				5504E73927FD7FF400351136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdventureTimes;
+			productName = AdventureTimes;
+			productReference = 5504E73B27FD7FF400351136 /* AdventureTimes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5504E74A27FD7FF600351136 /* AdventureTimesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5504E76227FD7FF600351136 /* Build configuration list for PBXNativeTarget "AdventureTimesTests" */;
+			buildPhases = (
+				5504E74727FD7FF600351136 /* Sources */,
+				5504E74827FD7FF600351136 /* Frameworks */,
+				5504E74927FD7FF600351136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5504E74D27FD7FF600351136 /* PBXTargetDependency */,
+			);
+			name = AdventureTimesTests;
+			productName = AdventureTimesTests;
+			productReference = 5504E74B27FD7FF600351136 /* AdventureTimesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5504E75427FD7FF600351136 /* AdventureTimesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5504E76527FD7FF600351136 /* Build configuration list for PBXNativeTarget "AdventureTimesUITests" */;
+			buildPhases = (
+				5504E75127FD7FF600351136 /* Sources */,
+				5504E75227FD7FF600351136 /* Frameworks */,
+				5504E75327FD7FF600351136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5504E75727FD7FF600351136 /* PBXTargetDependency */,
+			);
+			name = AdventureTimesUITests;
+			productName = AdventureTimesUITests;
+			productReference = 5504E75527FD7FF600351136 /* AdventureTimesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5504E73327FD7FF400351136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5504E73A27FD7FF400351136 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					5504E74A27FD7FF600351136 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 5504E73A27FD7FF400351136;
+					};
+					5504E75427FD7FF600351136 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 5504E73A27FD7FF400351136;
+					};
+				};
+			};
+			buildConfigurationList = 5504E73627FD7FF400351136 /* Build configuration list for PBXProject "AdventureTimes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5504E73227FD7FF400351136;
+			productRefGroup = 5504E73C27FD7FF400351136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5504E73A27FD7FF400351136 /* AdventureTimes */,
+				5504E74A27FD7FF600351136 /* AdventureTimesTests */,
+				5504E75427FD7FF600351136 /* AdventureTimesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5504E73927FD7FF400351136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5504E74627FD7FF600351136 /* Preview Assets.xcassets in Resources */,
+				5504E74327FD7FF600351136 /* Assets.xcassets in Resources */,
+				5504E7B627FF41B900351136 /* alert.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5504E74927FD7FF600351136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5504E7B727FF41B900351136 /* alert.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5504E75327FD7FF600351136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5504E7B827FF41B900351136 /* alert.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5504E73727FD7FF400351136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5504E76B27FD925200351136 /* BeginnerPage.swift in Sources */,
+				5504E7AD27FF37B600351136 /* AudioPlayer.swift in Sources */,
+				5504E76927FD8B7D00351136 /* DifficultiesPage.swift in Sources */,
+				5504E74127FD7FF400351136 /* ContentView.swift in Sources */,
+				62C48A6A27FD9C7C00A5AFC4 /* LocationManager.swift in Sources */,
+				5504E76F27FD927B00351136 /* ChallengerPage.swift in Sources */,
+				5504E73F27FD7FF400351136 /* AdventureTimesApp.swift in Sources */,
+				5504E77127FD9D9300351136 /* LocationCalculator.swift in Sources */,
+				5504E76D27FD926300351136 /* Semi-ProPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5504E74727FD7FF600351136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5504E75027FD7FF600351136 /* AdventureTimesTests.swift in Sources */,
+				5504E7AE27FF37B600351136 /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5504E75127FD7FF600351136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5504E75C27FD7FF600351136 /* AdventureTimesUITestsLaunchTests.swift in Sources */,
+				5504E7AF27FF37B600351136 /* AudioPlayer.swift in Sources */,
+				5504E75A27FD7FF600351136 /* AdventureTimesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5504E74D27FD7FF600351136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5504E73A27FD7FF400351136 /* AdventureTimes */;
+			targetProxy = 5504E74C27FD7FF600351136 /* PBXContainerItemProxy */;
+		};
+		5504E75727FD7FF600351136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5504E73A27FD7FF400351136 /* AdventureTimes */;
+			targetProxy = 5504E75627FD7FF600351136 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5504E75D27FD7FF600351136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5504E75E27FD7FF600351136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5504E76027FD7FF600351136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdventureTimes/Preview Content\"";
+				DEVELOPMENT_TEAM = G3W25DHK7P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdventureTimes/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.AdventureTimes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5504E76127FD7FF600351136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AdventureTimes/Preview Content\"";
+				DEVELOPMENT_TEAM = G3W25DHK7P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdventureTimes/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.AdventureTimes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5504E76327FD7FF600351136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3W25DHK7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.AdventureTimesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventureTimes.app/AdventureTimes";
+			};
+			name = Debug;
+		};
+		5504E76427FD7FF600351136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3W25DHK7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.AdventureTimesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdventureTimes.app/AdventureTimes";
+			};
+			name = Release;
+		};
+		5504E76627FD7FF600351136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3W25DHK7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.AdventureTimesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdventureTimes;
+			};
+			name = Debug;
+		};
+		5504E76727FD7FF600351136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G3W25DHK7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.AdventureTimesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdventureTimes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5504E73627FD7FF400351136 /* Build configuration list for PBXProject "AdventureTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5504E75D27FD7FF600351136 /* Debug */,
+				5504E75E27FD7FF600351136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5504E75F27FD7FF600351136 /* Build configuration list for PBXNativeTarget "AdventureTimes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5504E76027FD7FF600351136 /* Debug */,
+				5504E76127FD7FF600351136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5504E76227FD7FF600351136 /* Build configuration list for PBXNativeTarget "AdventureTimesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5504E76327FD7FF600351136 /* Debug */,
+				5504E76427FD7FF600351136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5504E76527FD7FF600351136 /* Build configuration list for PBXNativeTarget "AdventureTimesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5504E76627FD7FF600351136 /* Debug */,
+				5504E76727FD7FF600351136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5504E73327FD7FF400351136 /* Project object */;
+}

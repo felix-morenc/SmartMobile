@@ -1,0 +1,104 @@
+.comp{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.scroll{
+    display: flex;
+    flex-direction: column;
+    background-size: 100% 80%; 
+    height: 70vh;
+    width: 40%;
+    align-items: center;
+    background-image: url("../images/ScrollForPWA.png");
+    background-repeat:no-repeat; 
+}
+.hero{
+    width: 50%;
+    height: 50%;
+}
+.victory{
+    font-size: 42px;
+    background: -webkit-linear-gradient(rgb(116, 39, 39), rgb(255, 66, 66));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+}
+.buttons{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.buttons button{
+    border: none;
+    display: flex;
+    justify-items: baseline;
+    border-radius: 5rem;
+    height: 3rem;
+    margin-top: 1.5rem;
+    background-color: #A96500;
+}
+.buttons button :hover{
+    opacity: 0.5;
+}
+.buttonText{
+    width: 90%;
+    text-decoration: none;
+    align-self: center;
+    font-size: 24px;
+    color: white;
+}
+.buttons div{
+    margin-top: 0.7rem;
+    align-self: flex-start;
+    width: 4%;
+    height: 40%;
+    border-radius: 100%;
+    background-color: #F2DBBB;
+}
+@media only screen and (max-width: 600px) {
+    .scroll{
+        height: 50vh;
+        width: 80%;
+    }
+    .victory{
+        font-size: 42px;
+    }
+    .buttons{
+        width: 60%;
+    }
+    .buttons button{
+        width: 100%;
+        border-radius: 3rem;
+        height: 2.5rem;
+        margin-top: 1rem;
+    }
+}
+
+@keyframes flickerAnimation {
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }
+  .comp {
+     -webkit-animation: flickerAnimation 1s ease-in-out;
+     -moz-animation: flickerAnimation 1s ease-in-out;
+     -o-animation: flickerAnimation 1s ease-in-out;
+      animation: flickerAnimation 1s ease-in-out;
+  }

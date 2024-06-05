@@ -1,0 +1,22 @@
+{
+  "name": "effenaar-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chart.js": "^3.8.0",
+    "vue": "^3.2.25",
+    "vue-chartjs": "^4.1.1",
+    "vue-router": "^4.0.15"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "sass": "^1.52.1",
+    "vite": "^2.9.9"
+  }
+}

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6F9F1"
+    tools:context=".activities.MainActivity"
+    tools:layout_editor_absoluteX="-32dp"
+    tools:layout_editor_absoluteY="-2dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="@dimen/_128sdp"
+        android:layout_height="@dimen/_128sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:background="@drawable/jeans"
+        android:foreground="@drawable/jacket"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:text="@string/t_shirts"
+        android:textColor="#000000"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:text="@string/jackets"
+        android:textColor="#000000"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="@dimen/_128sdp"
+        android:layout_height="@dimen/_128sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:foreground="@drawable/t_shirt"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvBar" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="@dimen/_128sdp"
+        android:layout_height="@dimen/_128sdp"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/t_shirt"
+        android:foreground="@drawable/jeans"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvShirt" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvShirt"
+        android:layout_width="@dimen/_128sdp"
+        android:layout_height="@dimen/_128sdp"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="40dp"
+        android:foreground="@drawable/shirt"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvBar" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_marginTop="16dp"
+        android:text="@string/jeans"
+        android:textColor="#000000"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_marginTop="20dp"
+        android:text="@string/shirts"
+        android:textColor="#1C1B1B"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvShirt" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvBar"
+        android:layout_width="@dimen/_269sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#00FFFFFF"
+            android:text="@string/step_1_4"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="167dp"
+            tools:layout_editor_absoluteY="76dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
